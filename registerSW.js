@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/Bordes-v2/sw.js', { scope: '/Bordes-v2/' })})}
